@@ -19,9 +19,9 @@ function Navbar() {
                             Welcome, {user.name} ({user.role})
                         </span> */}
 
-                        {user.role === 'Citizen' && (
+                        {/* {user.role === 'Citizen' && (
                             <Link to="/citizen/challenges/new" className="hover:text-govOrange transition-colors">Submit Challenge</Link>
-                        )}
+                        )} */}
 
                         {user.role === 'University' && (
                             <Link to="/university/dashboard" className="hover:text-govOrange transition-colors">University Dashboard</Link>
