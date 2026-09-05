@@ -1,31 +1,31 @@
-// import React, { useContext } from 'react';
-// import { Link } from 'react-router-dom';
-// import { AuthContext } from '../context/AuthContext';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
 
 function Navbar() {
-    // const { user, logout } = useContext(AuthContext);
+    const { user, logout } = useContext(AuthContext);
 
     return (
         <nav className="bg-govBlue text-white p-4 shadow-md flex justify-between items-center sticky top-0 z-50">
             <div className="font-bold text-xl ml-4">
-                {/* <Link to="/" className="flex items-center gap-2">
+                <Link to="/" className="flex items-center gap-2">
                     <span>Jharkhand Innovation Portal</span>
-                </Link> */}
+                </Link>
             </div>
             <div className="space-x-6 mr-4 flex items-center">
                 {user ? (
                     <>
-                        {/* <span className="text-sm font-semibold opacity-80 border-r pr-6 border-white/20">
+                        <span className="text-sm font-semibold opacity-80 border-r pr-6 border-white/20">
                             Welcome, {user.name} ({user.role})
-                        </span> */}
+                        </span>
 
-                        {/* {user.role === 'Citizen' && (
+                        {user.role === 'Citizen' && (
                             <Link to="/citizen/challenges/new" className="hover:text-govOrange transition-colors">Submit Challenge</Link>
-                        )} */}
+                        )}
 
-                        {/* {user.role === 'University' && (
+                        {user.role === 'University' && (
                             <Link to="/university/dashboard" className="hover:text-govOrange transition-colors">University Dashboard</Link>
-                        )} */}
+                        )}
 
                         <Link to="/government/dashboard" className="hover:text-govOrange transition-colors">Analytics Data</Link>
 
@@ -49,4 +49,4 @@ function Navbar() {
     );
 }
 
-// export default Navbar;
+export default Navbar;
