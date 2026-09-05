@@ -8,9 +8,9 @@ function Navbar() {
     return (
         <nav className="bg-govBlue text-white p-4 shadow-md flex justify-between items-center sticky top-0 z-50">
             <div className="font-bold text-xl ml-4">
-                <Link to="/" className="flex items-center gap-2">
+                {/* <Link to="/" className="flex items-center gap-2">
                     <span>Jharkhand Innovation Portal</span>
-                </Link>
+                </Link> */}
             </div>
             <div className="space-x-6 mr-4 flex items-center">
                 {user ? (
