@@ -23,9 +23,9 @@ function Navbar() {
                             <Link to="/citizen/challenges/new" className="hover:text-govOrange transition-colors">Submit Challenge</Link>
                         )} */}
 
-                        {user.role === 'University' && (
+                        {/* {user.role === 'University' && (
                             <Link to="/university/dashboard" className="hover:text-govOrange transition-colors">University Dashboard</Link>
-                        )}
+                        )} */}
 
                         <Link to="/government/dashboard" className="hover:text-govOrange transition-colors">Analytics Data</Link>
 
