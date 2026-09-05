@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 
 function Navbar() {
-    const { user, logout } = useContext(AuthContext);
+    // const { user, logout } = useContext(AuthContext);
 
     return (
         <nav className="bg-govBlue text-white p-4 shadow-md flex justify-between items-center sticky top-0 z-50">
