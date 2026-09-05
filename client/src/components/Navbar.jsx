@@ -37,12 +37,12 @@ function Navbar() {
                         </button>
                     </>
                 ) : (
-                    <>
-                        <Link to="/government/dashboard" className="hover:text-govOrange transition-colors">Public Analytics</Link>
-                        <Link to="/login" className="bg-govOrange text-govBlue px-5 py-1.5 font-bold rounded-full hover:bg-orange-300 transition-colors">
-                            Login to Portal
-                        </Link>
-                    </>
+                    // <>
+                    //     <Link to="/government/dashboard" className="hover:text-govOrange transition-colors">Public Analytics</Link>
+                    //     <Link to="/login" className="bg-govOrange text-govBlue px-5 py-1.5 font-bold rounded-full hover:bg-orange-300 transition-colors">
+                    //         Login to Portal
+                    //     </Link>
+                    // </>
                 )}
             </div>
         </nav>
