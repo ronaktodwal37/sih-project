@@ -29,12 +29,12 @@ function Navbar() {
 
                         <Link to="/government/dashboard" className="hover:text-govOrange transition-colors">Analytics Data</Link>
 
-                        {/* <button
+                        <button
                             onClick={logout}
                             className="bg-red-500/90 text-white px-4 py-1.5 rounded-full text-sm hover:bg-red-600 transition-colors shadow-sm ml-4"
                         >
                             Logout
-                        </button> */}
+                        </button>
                     </>
                 ) : (
                     // <>
