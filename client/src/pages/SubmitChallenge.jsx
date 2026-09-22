@@ -6,7 +6,7 @@ import { AuthContext } from '../context/AuthContext';
 
 function SubmitChallenge() {
     // const { user } = useContext(AuthContext);
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const [step, setStep] = useState(1);
     const { register, handleSubmit, formState: { errors } } = useForm();
 
