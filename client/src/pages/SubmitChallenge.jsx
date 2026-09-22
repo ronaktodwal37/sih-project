@@ -8,7 +8,7 @@ function SubmitChallenge() {
     // const { user } = useContext(AuthContext);
     // const navigate = useNavigate();
     // const [step, setStep] = useState(1);
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    // const { register, handleSubmit, formState: { errors } } = useForm();
 
     const nextStep = (e) => {
         e.preventDefault();
