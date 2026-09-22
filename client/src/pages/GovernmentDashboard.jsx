@@ -89,7 +89,7 @@ function GovernmentDashboard() {
                 <h2 className="text-lg font-bold text-gray-700 mb-4">District Challenge Heatmap</h2>
                 <p className="text-sm text-gray-500 mb-4">Interactive geographic overview of spatial challenge data density across Jharkhand.</p>
                 <div className="bg-blue-50 w-full h-64 border border-blue-100 rounded-lg flex items-center justify-center">
-                    {/* <span className="text-blue-400 border border-blue-300 p-2 rounded bg-white">Leaflet Map Visualization Placeholder</span> */}
+                    <span className="text-blue-400 border border-blue-300 p-2 rounded bg-white">Leaflet Map Visualization Placeholder</span>
                 </div>
             </div>
 
