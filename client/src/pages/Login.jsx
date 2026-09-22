@@ -15,10 +15,10 @@ function Login() {
         try {
             const u = await login({ email, password });
 
-            // if (u.role === 'Citizen') navigate('/citizen/challenges/new');
-            // else if (u.role === 'University') navigate('/university/dashboard');
-            // else if (u.role === 'Government' || u.role === 'Admin') navigate('/government/dashboard');
-            // else navigate('/');
+            if (u.role === 'Citizen') navigate('/citizen/challenges/new');
+            else if (u.role === 'University') navigate('/university/dashboard');
+            else if (u.role === 'Government' || u.role === 'Admin') navigate('/government/dashboard');
+            else navigate('/');
 
         } catch (err) {
             setErrorMsg(err.response?.data?.message || 'Login failed. Invalid credentials.');
