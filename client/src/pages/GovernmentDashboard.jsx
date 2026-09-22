@@ -19,7 +19,7 @@ function GovernmentDashboard() {
         // }
     };
 
-    // if (!data) return <div className="p-8 text-center animate-pulse">Loading Analytics...</div>;
+    if (!data) return <div className="p-8 text-center animate-pulse">Loading Analytics...</div>;
 
     return (
         <div className="bg-govGray min-h-screen p-8">
