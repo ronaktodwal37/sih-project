@@ -11,7 +11,7 @@ function SubmitChallenge() {
     // const { register, handleSubmit, formState: { errors } } = useForm();
 
     const nextStep = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         setStep(s => s + 1);
     };
 
