@@ -17,7 +17,7 @@ function GovernmentDashboard() {
         // } catch (err) {
             // console.error(err);
         // }
-    };
+    // };
 
     if (!data) return <div className="p-8 text-center animate-pulse">Loading Analytics...</div>;
 
