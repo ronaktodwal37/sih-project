@@ -7,7 +7,7 @@ function GovernmentDashboard() {
     // const COLORS = ['#0c2340', '#f4a261', '#2a9d8f', '#e76f51', '#264653', '#e9c46a'];
 
     useEffect(() => {
-        // loadAnalytics();
+        loadAnalytics();
     }, []);
 
     const loadAnalytics = async () => {
