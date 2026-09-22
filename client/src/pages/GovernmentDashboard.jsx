@@ -72,7 +72,7 @@ function GovernmentDashboard() {
                                 // outerRadius={80}
                                 // fill="#8884d8"
                                 // paddingAngle={5}
-                                dataKey="value"
+                                // dataKey="value"
                                 label
                             >
                                 {data.charts.districts.map((entry, index) => (
