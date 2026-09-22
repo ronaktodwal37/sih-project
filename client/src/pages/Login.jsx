@@ -11,7 +11,7 @@ function Login() {
 
     const onSubmit = async (e) => {
         // e.preventDefault();
-        // setErrorMsg('');
+        setErrorMsg('');
         try {
             const u = await login({ email, password });
 
