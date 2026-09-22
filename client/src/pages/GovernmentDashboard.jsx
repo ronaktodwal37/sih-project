@@ -3,7 +3,7 @@ import api from '../services/api';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
 function GovernmentDashboard() {
-    const [data, setData] = useState(null);
+    // const [data, setData] = useState(null);
     const COLORS = ['#0c2340', '#f4a261', '#2a9d8f', '#e76f51', '#264653', '#e9c46a'];
 
     useEffect(() => {
@@ -98,3 +98,4 @@ function GovernmentDashboard() {
 }
 
 export default GovernmentDashboard;
+
