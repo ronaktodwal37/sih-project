@@ -15,7 +15,7 @@ function GovernmentDashboard() {
             // const res = await api.get('/analytics/government');
             // setData(res.data);
         } catch (err) {
-            console.error(err);
+            // console.error(err);
         }
     };
 
