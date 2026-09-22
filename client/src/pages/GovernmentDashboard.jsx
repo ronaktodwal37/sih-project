@@ -73,7 +73,7 @@ function GovernmentDashboard() {
                                 // fill="#8884d8"
                                 // paddingAngle={5}
                                 // dataKey="value"
-                                label
+                                // label
                             >
                                 {data.charts.districts.map((entry, index) => (
                                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
