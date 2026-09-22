@@ -70,8 +70,8 @@ function GovernmentDashboard() {
                                 cy="50%"
                                 innerRadius={60}
                                 outerRadius={80}
-                                // fill="#8884d8"
-                                // paddingAngle={5}
+                                fill="#8884d8"
+                                paddingAngle={5}
                                 // dataKey="value"
                                 // label
                             >
