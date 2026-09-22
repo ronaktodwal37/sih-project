@@ -10,10 +10,10 @@ function SubmitChallenge() {
     // const [step, setStep] = useState(1);
     // const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const nextStep = (e) => {
+    // const nextStep = (e) => {
         // e.preventDefault();
         // setStep(s => s + 1);
-    };
+    // };
 
     const prevStep = (e) => {
         e.preventDefault();
