@@ -11,12 +11,12 @@ function GovernmentDashboard() {
     // }, []);
 
     const loadAnalytics = async () => {
-        // try {
-            // const res = await api.get('/analytics/government');
-            // setData(res.data);
-        // } catch (err) {
-            // console.error(err);
-        // }
+        try {
+            const res = await api.get('/analytics/government');
+            setData(res.data);
+        } catch (err) {
+            console.error(err);
+        }
     };
 
     if (!data) return <div className="p-8 text-center animate-pulse">Loading Analytics...</div>;
