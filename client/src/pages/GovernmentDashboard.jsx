@@ -4,7 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pi
 
 function GovernmentDashboard() {
     // const [data, setData] = useState(null);
-    const COLORS = ['#0c2340', '#f4a261', '#2a9d8f', '#e76f51', '#264653', '#e9c46a'];
+    // const COLORS = ['#0c2340', '#f4a261', '#2a9d8f', '#e76f51', '#264653', '#e9c46a'];
 
     useEffect(() => {
         loadAnalytics();
@@ -98,4 +98,5 @@ function GovernmentDashboard() {
 }
 
 export default GovernmentDashboard;
+
 
