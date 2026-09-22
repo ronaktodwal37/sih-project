@@ -12,7 +12,7 @@ function GovernmentDashboard() {
 
     const loadAnalytics = async () => {
         try {
-            const res = await api.get('/analytics/government');
+            // const res = await api.get('/analytics/government');
             setData(res.data);
         } catch (err) {
             console.error(err);
