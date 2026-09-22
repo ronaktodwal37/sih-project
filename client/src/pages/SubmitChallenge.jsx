@@ -15,10 +15,10 @@ function SubmitChallenge() {
         setStep(s => s + 1);
     };
 
-    // const prevStep = (e) => {
-    //     e.preventDefault();
-    //     setStep(s => s - 1);
-    // };
+    const prevStep = (e) => {
+        e.preventDefault();
+        setStep(s => s - 1);
+    };
 
     const onSubmit = async (data) => {
         try {
