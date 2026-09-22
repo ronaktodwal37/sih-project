@@ -12,7 +12,7 @@ function SubmitChallenge() {
 
     const nextStep = (e) => {
         // e.preventDefault();
-        setStep(s => s + 1);
+        // setStep(s => s + 1);
     };
 
     const prevStep = (e) => {
