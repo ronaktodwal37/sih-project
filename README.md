@@ -1,5 +1,5 @@
 # Jharkhand Societal Innovation Collaboration Portal
-> Developed for Smart India Hackathon (SIH 2026) Problem -  26043
+> Developed for Smart India Hackathon (SIH 2026) Problem Statement -  26043
 
 A powerful full-stack application connecting citizen problems from grass-root levels across Jharkhand to specialized University faculty, student innovators, and Corporate Social Responsibility (CSR) resources. 
 
